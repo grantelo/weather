@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background: rgba(32,124,229,1);
+  background: -moz-linear-gradient(left, rgba(32,124,229,1) 0%, rgba(92,62,209,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(32,124,229,1)), color-stop(100%, rgba(92,62,209,1)));
+  background: -webkit-linear-gradient(left, rgba(32,124,229,1) 0%, rgba(92,62,209,1) 100%);
+  background: -o-linear-gradient(left, rgba(32,124,229,1) 0%, rgba(92,62,209,1) 100%);
+  background: -ms-linear-gradient(left, rgba(32,124,229,1) 0%, rgba(92,62,209,1) 100%);
+  background: linear-gradient(to right, rgba(32,124,229,1) 0%, rgba(92,62,209,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#207ce5', endColorstr='#5c3ed1', GradientType=1 );
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  width: 1000px;
+  height: 500px;
+  display: flex;
+  background-color: #124479;
+  color: #fff;
+}
+
+.search {
+  width: 290px;
+  margin-right: 20px;
+  padding-bottom: 5px;
+  position: relative;
+  border: none;
+  background-color: transparent !important;
+  border-bottom: 1px solid black;
+  outline: none;
+  font-size: 18px;
+  color: #fff;
+}
+
+.search::placeholder {
+  color: #fff;
+  font-size: 18px;
+}
+
+.title-box {
+  display: flex;
+  background-blend-mode: multiply;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 40%;
+  height: 100%;
+  background: url('img/bg.jpg'), rgba(0, 0, 0, 0.7);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title-box h1{
+  margin: 0;
+  font-size: 50px;
+  text-align: center;
+}
+
+.main {
+  max-width: 60%;
+  padding: 100px 0px 0 50px 
+}
+
+.form-btn {
+  width: 200px;
+  height: 50px;
+  background-color: #24538E;
+  border: none;
+  box-shadow: 1px 1px 10px 0 black;
+  outline: none;
+  font-size: 18px;
+  font-weight: bold;
+  vertical-align: bottom;
+  cursor: pointer;
+}
+
+.weather-box {
+  font-size: 23px;
+  
+}
+
